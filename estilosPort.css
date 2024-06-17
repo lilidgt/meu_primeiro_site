@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "shrikhand";
+    src: url('shrikhand.ttf') format('truetype');
+}
+@font-face {
+    font-family: "kanit";
+    src: url('kanit.ttf') format('truetype');
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.telaMenu{
+    background: #FF7575;
+    width: "device-width";
+    height: "device-height";
+    margin: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'shrikhand';
+}
+
+.telaSobreMim{
+    background: #7ED957;
+    width: "device-width";
+    height: "device-height";
+    margin: 25px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.telaProjetos{
+    background: #3FD7FF;
+    width: "device-width";
+    height: "device-height";
+    margin: 25px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+/*tudo do menu*/
+    .naveg{
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
+        color: #FFF6D0;
+        margin-top: 20px;
+    }
+
+    .botoesNaveg{
+        background: #FF6363;
+        border-radius: 30px;
+        padding: 6px;
+    }
+
+    .posicaoNaveg{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lissaDeguti{
+        font-size: 80px;
+        color: white;
+        text-shadow: 2px 2px 6px #a91e1e;
+        margin-top: 200px;
+    }
+
+    .textoVazado{
+        color: transparent;
+        font-size: 30px;
+        -webkit-text-stroke-width: 1px;  /* largura contorno */
+        -webkit-text-stroke-color: white;  /* cor contorno*/
+        margin-top: -60px;
+        margin-bottom: 200px;
+    }
+
+/*tudo do sobre mim*/
+    .sobreMim{
+        font-family: "shrikhand";
+        font-size: 45px;
+        color: white;
+        text-shadow: 2px 2px 6px #216e00;
+        margin-top: -15px;
+        text-align: center;
+    }
+
+    .areaSobreMim{
+        width: 50%;
+        background-color: #FF7575;
+        border-radius: 30px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .textoSobreMim{
+        font-family: "kanit";
+        color: white;
+        text-shadow: 1px 1px 1px #a91e1e;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .lissaFoto{
+        width: 20%;
+        height: 40%;
+        border-radius: 20px;
+        border:20px solid #FFE485;
+    }
+
+    .fotoTexto{
+        display: flex;
+        justify-content: space-around;
+    }
+
+/*tudo do projetos*/
+    .projetos{
+        font-family: "shrikhand";
+        font-size: 45px;
+        color: white;
+        text-shadow: 2px 2px 6px #00637e;
+        margin-top: -15px;
+        text-align: center;
+    }
+
+    .materias{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .circulo{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin: 30px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nomeMateria{
+        font-family: "kanit";
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        background-color: #FF7575;
+        border-radius: 30px;
+        padding:10px;
+    }
+
+/*tudo do rodapé*/
+    .rodape{
+        margin-top: 100px;
+        background-color: #FFE485;
+        width: "device-width";
+        height: "device-height";
+        padding: 10px;
+        display:flex;
+    }
+
+    .contato{
+        font-family: "shrikhand";
+        font-size: 30px;
+        color: #FF7575;
+        margin:50px;
+    }
+
+    .dados{
+        font-family: "kanit";
+        font-size: 20px;
+        color: #636363;
+        margin:50px;
+    }
+
+    .obrigada{       
+        font-family: "kanit";
+        font-size: 90px;
+        font-weight: bold;
+        color: #FF7575;
+        margin:50px;
+        margin-left: 200px;
+
+    }
